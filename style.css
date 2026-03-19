@@ -7,6 +7,12 @@ body {
      cursor: default;
 }
 
+.reminder {
+    background-color: rgba(255, 0, 0, 0.425);
+    display: block;
+    font-family: cursive;
+}
+
 .h1 {
    font-size: 60px;
    color: Yellow;

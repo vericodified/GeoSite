@@ -16,6 +16,9 @@ body {
      border-radius: 14px;
      text-shadow: 0px 0px 5px rgb(0, 255, 0);
      margin-bottom: 30px;
+     position: fixed;
+     top: 0;
+     left: 0;
 }
 
 table, td {
@@ -39,152 +42,152 @@ th{
 }
 
 
-.a1 {
+a.one {
     color: white;
     text-decoration: none;
 }
 
-.a1:hover {
+a.one:hover {
     color: black;
     text-decoration: none;
 }
 
-.a2 {
+a.two {
     color: white;
     text-decoration: none;
 }
 
-.a2:hover {
+a.two:hover {
     color: orange;
     text-decoration: none;
 }
 
-.a3 {
+a.three {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
-.a3:hover {
+a.three:hover {
     color: #310A85;
     text-decoration:none;
 }
 
-.a4 {
+a.four {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
-.a4:hover {
+a.four:hover {
     color:rgb(0, 183, 255);
     text-decoration: none;
 }
 
-.a5 {
+a.five {
     color: #88fff6;
     text-decoration: none;
 }
 
-.a5:hover {
+a.five:hover {
     color: #62ff65;
     text-decoration: none;
 }
 
-.a6 {
+a.six {
     color: black;
     text-decoration: none;
 }
 
-.a6:hover {
+a.six:hover {
     color: white;
     text-decoration: none;
 }
 
-.a7 {
+a.seven {
     color: white;
     text-decoration: none;
 }
 
-.a7:hover {
+a.seven:hover {
     color: #E5209E;
     text-decoration: none;
 }
 
-.a8 {
+a.eight {
     color: green;
     text-decoration: none;
 }
 
-.a8:hover {
+a.eight:hover {
     color: black;
     text-decoration: none;
 }
 
-.a9 {
+a.nine {
     color: #027BF4;
     text-decoration: none;
 }
 
-.a9:hover {
+a.nine:hover {
     color: #2D2731;
     text-decoration: none;
 }
 
-.a10 {
+a.ten {
     color: #9D9BAA;
     text-decoration: none;
 }
 
-.a10:hover {
+a.ten:hover {
     color: #B749D1;
     text-decoration: none;
 }
 
-.bckg1 {
+td.one {
     background-image: url("ts2.jpg");
     background-size: cover;
 }
 
-.bckg2 {
+td.two {
     background-image: url("flamewall.png");
     background-size: cover;
 }
 
-.bckg3 {
+td.three {
     background-image: url("amethyst.png");
     background-size: cover;
 }
 
-.bckg4 {
+td.four {
     background-image: url("tidalwave.png");
     background-size: cover;
 }
 
-.bckg5 {
+td.five {
     background-image: url("orbit.png");
     background-size: cover;
 }
 
-.bckg6 {
+td.six {
     background-image: url("nullscapes.png");
     background-size: cover;
 }
 
-.bckg7 {
+td.seven {
     background-image: url("Quanteuse.png");
     background-size: cover;
 }
 
-.bckg8 {
+td.eight {
     background-image: url("boobawamba.png");
     background-size: cover;
 }
 
-.bckg9 {
+td.nine {
     background-image: url("everyend.png");
     background-size: cover;
 }
 
-.bckg10 {
+td.ten {
     background-image: url("andromeda.png");
     background-size: cover;
 }
