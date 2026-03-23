@@ -1,0 +1,203 @@
+body {
+     color: white;
+     background-color: rgb(201, 105, 15); 
+     background-image: url("demonlistbackground.jpg");
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     text-align: center;
+     font-family: Sofia, sans-serif;
+     cursor: default;
+}
+
+.home {
+    color: rgb(37, 101, 153);
+     border: 4px solid rgb(53, 122, 74);
+     text-decoration: none;
+     display: inline-block; 
+     padding: 10px 15.5px 10px 15.5px;
+     border-radius: 14px;
+     text-shadow: 0px 0px 50px rgb(37, 101, 153);
+     position: fixed;
+     top: 0;
+     left: 0;
+}
+
+table, td {
+    border: 1px solid #ffffff65;
+    border-style: dashed;
+    border-collapse: collapse; 
+    padding: 90px;             
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+}
+
+th{
+    border: 1px solid #ffffff65;
+    border-style: dashed;
+    border-collapse: collapse; 
+    padding: 20px;             
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+}
+
+
+a#one {
+    color: white;
+    text-decoration: none;
+}
+
+a#one:hover {
+    color: black;
+    text-decoration: none;
+}
+
+a#two {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a#two:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+a#three {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a#three:hover {
+    color: #310A85;
+    text-decoration:none;
+}
+
+a#four {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a#four:hover {
+    color:rgb(0, 183, 255);
+    text-decoration: none;
+}
+
+a#five {
+    color: #88fff6;
+    text-decoration: none;
+}
+
+a#five:hover {
+    color: #62ff65;
+    text-decoration: none;
+}
+
+a#six {
+    color: black;
+    text-decoration: none;
+}
+
+a#six:hover {
+    color: white;
+    text-decoration: none;
+}
+
+a#seven {
+    color: white;
+    text-decoration: none;
+}
+
+a#seven:hover {
+    color: #E5209E;
+    text-decoration: none;
+}
+
+a#eight {
+    color: green;
+    text-decoration: none;
+}
+
+a#eight:hover {
+    color: black;
+    text-decoration: none;
+}
+
+a#nine {
+    color: #027BF4;
+    text-decoration: none;
+}
+
+a#nine:hover {
+    color: #2D2731;
+    text-decoration: none;
+}
+
+a#ten {
+    color: #9D9BAA;
+    text-decoration: none;
+}
+
+a#ten:hover {
+    color: #B749D1;
+    text-decoration: none;
+}
+
+td#one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("ts2.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white; 
+}
+
+
+td#two {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("flamewall.png");
+    background-size: cover;
+}
+
+td#three {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("amethyst.png");
+    background-size: cover;
+}
+
+td#four {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("tidalwave.png");
+    background-size: cover;
+}
+
+td#five {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("orbit.png");
+    background-size: cover;
+}
+
+td#six {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("nullscapes.png");
+    background-size: cover;
+}
+
+td#seven {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("Quanteuse.png");
+    background-size: cover;
+}
+
+td#eight {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("boobawamba.png");
+    background-size: cover;
+}
+
+td#nine {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("everyend.png");
+    background-size: cover;
+}
+
+td#ten {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("andromeda.png");
+    background-size: cover;
+}
+
+#test {
+    color: green;
+}
