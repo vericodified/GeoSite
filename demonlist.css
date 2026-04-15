@@ -11,6 +11,8 @@ body {
      cursor: default;
 }
 
+/*home button*/
+
 .home {
     color: rgb(37, 101, 153);
      border: 4px solid rgb(53, 122, 74);
@@ -24,6 +26,8 @@ body {
      left: 0;
 }
 
+/* table configs */
+
 table, td {
     border: 1px solid #ffffff65;
     border-style: dashed;
@@ -32,6 +36,7 @@ table, td {
     text-align: center;
     margin: auto;
     font-size: 30px;
+    position: relative;
 }
 
 th{
@@ -42,162 +47,231 @@ th{
     text-align: center;
     margin: auto;
     font-size: 30px;
+    position: relative;
 }
 
+/* text effects */
+
+/***Thinking space II***/
 
 a#one {
     color: white;
     text-decoration: none;
+    text-shadow: 3px 3px 3px black;
 }
 
 a#one:hover {
     color: black;
-    text-decoration: none;
+    text-shadow: 3px 3px 3px white;
 }
+
+/***Flamewall***/
 
 a#two {
     color: rgb(0, 0, 0);
     text-decoration: none;
+    text-shadow: 3px 3px 3px #D83829;
 }
 
 a#two:hover {
-    color: orange;
-    text-decoration: none;
+    color: #D83829;
+    text-shadow: 3px 3px 3px black;
 }
+
+/***Amethyst***/
 
 a#three {
     color: rgb(255, 255, 255);
     text-decoration: none;
+    text-shadow: 3px 3px 3px #310A85;
 }
 
 a#three:hover {
     color: #310A85;
-    text-decoration:none;
+    text-shadow: 3px 3px 3px white;
+
 }
+
+/***Tidal Wave***/
 
 a#four {
     color: rgb(255, 255, 255);
     text-decoration: none;
+    text-shadow: 3px 3px 3px rgb(0, 183, 255);
 }
 
 a#four:hover {
     color:rgb(0, 183, 255);
-    text-decoration: none;
+    text-shadow: 3px 3px 3px rgb(255, 255, 255);
 }
+
+/***ORBIT***/
 
 a#five {
     color: #88fff6;
     text-decoration: none;
+    text-shadow: 3px 3px 3px #62ff65;
 }
 
 a#five:hover {
     color: #62ff65;
-    text-decoration: none;
+    text-shadow: 3px 3px 3px #88fff6;
 }
+
+/***Nullscapes***/
 
 a#six {
     color: black;
     text-decoration: none;
+    text-shadow: 3px 3px 3px white;
 }
 
 a#six:hover {
     color: white;
-    text-decoration: none;
+    text-shadow: 3px 3px 3px  black;
 }
+
+/***Quanteuse Processing***/
 
 a#seven {
     color: white;
     text-decoration: none;
+    text-shadow: 3px 3px 3px #E5209E;
 }
 
 a#seven:hover {
     color: #E5209E;
-    text-decoration: none;
+    text-shadow: 3px 3px 3px white;
 }
+
+/***BOOBAWAMBA***/
 
 a#eight {
     color: green;
     text-decoration: none;
+    text-shadow: 3px 3px 3px black;
 }
 
 a#eight:hover {
     color: black;
-    text-decoration: none;
+    text-shadow: 3px 3px 3px green;
 }
+
+/***Every End***/
 
 a#nine {
     color: #027BF4;
     text-decoration: none;
+    text-shadow: 3px 3px 3px #2D2731;
 }
 
 a#nine:hover {
     color: #2D2731;
-    text-decoration: none;
+    text-shadow: 3px 3px 3px #027BF4;
 }
+
+/***andromeda***/
 
 a#ten {
     color: #9D9BAA;
     text-decoration: none;
+    text-shadow: 3px 3px 3px #B749D1;
 }
 
 a#ten:hover {
     color: #B749D1;
-    text-decoration: none;
+    text-shadow: 3px 3px 3px #9D9BAA;
 }
+
+/* background images */
+
+/***Thinking Space II***/
 
 td#one {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("ts2.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("ts2.jpg");
     background-size: cover;
     background-position: center;
-    color: white; 
 }
 
+/***Flamewall***/
 
 td#two {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("flamewall.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("flamewall.png");
     background-size: cover;
+    background-position: center;
 }
 
+/***Amethyst***/
+
 td#three {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("amethyst.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("amethyst.png");
     background-size: cover;
+    background-position: center;
 }
+
+/***Tidal Wave***/
 
 td#four {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("tidalwave.png");
     background-size: cover;
+    background-position: center;
 }
 
+/***ORBIT***/
+
 td#five {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("orbit.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("orbit.png");
     background-size: cover;
+    background-position: center;
 }
+
+
+/***Nullscapes***/
 
 td#six {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("nullscapes.png");
     background-size: cover;
+    background-position: center;
 }
 
+/***Quanteuse Processing***/
+
 td#seven {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("Quanteuse.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("Quanteuse.png");
     background-size: cover;
+    background-position: center;
 }
+
+/***BOOBAWAMBA***/
 
 td#eight {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("boobawamba.png");
     background-size: cover;
+    background-position: center;
 }
+
+/***Every End***/
 
 td#nine {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("everyend.png");
     background-size: cover;
+    background-position: center;
 }
+
+/***andromeda***/
 
 td#ten {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("andromeda.png");
     background-size: cover;
+    background-position: center;
 }
 
-#test {
-    color: green;
-}
+/*reserved custom id for orbit*/
+
+span#o {color: #D1C65D;}
+span#r {color: #45D4CB}
+span#b {color: #CC5CCC;}
+span#i {color: #CE3B17;}
+span#t {color: #5BCD56;}
+
+/*end*/
